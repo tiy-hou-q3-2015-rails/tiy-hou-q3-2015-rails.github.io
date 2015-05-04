@@ -8,6 +8,6 @@ Install ruby 2.2.2
 ------------------
 
 1.	Close and reopen terminal.
-2.	rbenv install 2.2.2
+2.	> rbenv install 2.2.2
 3.	Stretch
-4.	rbenv global 2.2.2
+4.	> rbenv global 2.2.2
