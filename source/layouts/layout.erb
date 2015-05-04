@@ -4,7 +4,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- Use title if it's in the page YAML frontmatter -->
-    <title><%= data.page.title || "The Iron Yard - Houston Q4 Rails Engineering" %></title>
+    <title><%= data.page.title || "The Iron Yard - Houston 2015 Q1 Rails Engineering" %></title>
 
     <%= stylesheet_link_tag "all" %>
     <link href='http://fonts.googleapis.com/css?family=Oxygen:400,300,700'
@@ -18,7 +18,6 @@
     <div id="main" role="main">
       <%= partial "partials/nav" %>
       <%= yield %>
-      <%= partial "partials/footer" %>
     </div>
 
     <%= javascript_include_tag  "all" %>
