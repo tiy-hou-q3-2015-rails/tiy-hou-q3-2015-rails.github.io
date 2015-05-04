@@ -1,7 +1,8 @@
 Install rbenv & ruby-build
 --------------------------
 
-> brew install ruby-build rbenv echo 'if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi' >> ~/.profile
+> brew install ruby-build  
+> rbenv echo 'if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi' >> ~/.profile
 
 Install ruby 2.2.2
 ------------------
