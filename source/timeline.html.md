@@ -1,174 +1,139 @@
 ---
 layout: page
-title: Weekly Timeline
+title: ## Weekly Timeline
 ---
 
-Week 1: Introduction to Ruby and Programming
+# Rails Engineering Timeline, with Objectives
 
-    Starting and using IRb/Pry
-    Ruby basic datatypes, including arrays and hashes
-    Explanation of symbols
-    Variable assignment
-    Input and output with puts and gets
-    Using your editor and running Ruby scripts
-    Object-oriented design
-        I use a simplified version of SOLID, called RISE:
-            Single Responsibility Principle
-            Isolate side effects
-            Replicate existing interfaces
-            Easily testable
-    Creating and organizing classes
-    attr_accessor, attr_reader, and attr_writer
-    String interpolation
-    Control flow and logic
-    Blocks
-    Ruby project layout
-    Debugging with byebug
-    Testing with MiniTest
+---------------
 
-Week 2
-Advanced OO & Ruby
 
-    Variable arguments for methods
-    Method visibility
-    Inheritance
-    Modules/mixins
-    Class methods
-    Bundler
+## Week 1
 
-Introduction to the Web
+    Git, HTML/CSS
+    SCSS, Bootstrap
 
-    HTML elements
-    Basic CSS
-    Middleman or other static site generator
-        Layouts & partials
+### Objectives
 
-Week 3
-Static sites, continued
+    Demonstrate ability to use source control (git)
+    Demonstrate ability to take an existing design and implement in HTML
+    Demonstrate layout techniques (float)
 
-    Sass
-    A CSS framework -- Zurb Foundation, Twitter Bootstrap, or Bourbon and friends are recommended
-    Middleman or other static site generator
-        Dynamic pages from data
-        Helpers
-        Plugins
-            middleman-blog
-            middleman-deploy
+Lab - Timeline HTML Lab
 
-Rails
+---------------
 
-    History of Rails
-    MVC architecture explained
-    Rake
-    Scaffolding
-    ActiveRecord models
-        Built-in validations
-        Custom validations
-        Migrations
-        belongs_to and has_many associations
-        Simple queries
-    Controllers and routes
-        Custom controllers
-        Resource routes
-        Simple routes
-        Strong parameters
-    Views
-        Custom views -- not scaffolds
-        Form helpers
+## Week 2
 
-Week 4: Rails in Detail
+    Ruby Syntax, Data structure, and usage from command line
+    variables, instance variables, scoping, methods, etc.
+    Enumerable (find, select, map, reject)
 
-    ActiveRecord in detail
-        has_one associations
-        has_and_belongs_to_many and has_many :through associations
-        Association methods
-        STI and polymorphic associations
-        Migrations and existing data
-        Queries using SQL fragments
-        .includes
-        Using PostgreSQL (I use SQLite until this week.)
-        Testing models
-    Controllers and routes in detail
-        REST
-        Before, around, and after filters
-        Sessions and the flash session
-        Private methods in controllers
-        Testing controllers
-    Views in detail
-        Forms
-        Helpers
-        Alternative template languages
-    Deployment to Heroku
-    Other testing tools
-        Factories
-        Fake data
-        BDD
+### Objectives
 
-Week 5: Introduction to JavaScript
+    Demonstrate knowledge of scope, variables, methods, and classes
+    Demonstrate use of ruby-style
+    Demonstrate knowledge of data structures and modeling skills
 
-    Intro to JavaScript
-    Using JavaScript in Rails
-        UJS
-        Remote actions
-    Server-generated JavaScript responses
-        escape_javascript
-        dom_id
-    jQuery
-        DOM manipulation
-        Ajax
-        Animations
-    Asset pipeline
-        CoffeeScript or Opal (optional)
-        External assets (vendor/assets, Bower, rails-assets.org)
+Lab - CSV to HTML Report
 
-Week 6 and 7: Rails Patterns
+---------------
 
-    Integration testing with Capybara or other library
-    Authentication
-        DIY
-        Using a gem
-    File uploads
-    Pagination
-    Building RESTful APIs
-        Generating JSON and XML
-    Some of the following:
-        Tagging
-        Favorites
-        Sorting
-        Search
-        Asynchronous processing
-        Drag-and-drop
-        Consuming external APIs
-        More advanced patterns
-            Resize/Crop Image
-            Expression Builder
-            Live Preview
-            Forgiving Format
-            Edit In-Place
-            Filter Information On-Page
-        Advanced forms
-            Add Another
-            Select Existing Option or Add New Option
-            Select Options Based on Previous Options
-            Captcha
-            Auto-Complete
+## Week 3
 
-Week 8: Flex Week
+    Advanced Ruby, Testing / TDD, Games
+    Modules, Inheritance, Inject, MonkeyPatching
 
-I don't have a clear plan for this week. I suggest doing one or more of the following:
+### Objectives
 
-    Cover a JavaScript framework like Backbone, Angular, or React
-    Go in-depth on testing
-    Add in more patterns
-    Deployment to non-Heroku platforms
+    Demonstrate implementation of control-flow and data-flow
+    Demonstrate ability to create a user interface with input/output
+    Demonstrate use of loops as a control-flow concept
 
-Week 9: Review and Prep for Final Project
+Lab - Blackjack
 
-    Review of the past 8 weeks
-    Agile development
-    Estimation
-    Pitching
+---------------
 
-Week 10-12: Final Project
+## Week 4
 
-Students work on their final projects.
+    Intro to Rails, Static pages and assets
+
+### Objectives
+
+    Demonstrate understanding of how dynamic pages work on the web
+    Demonstrate understanding of how URLs rule everything
+    Demonstrate understanding of the concept of MVC architecture
+    Demonstrate use of the Rails asset pipeline
+
+Lab - Rails pages
+
+---------------
+
+## Week 5
+
+    Databases, Models, Routing
+
+### Objectives
+
+    Demonstrate knowledge of data modeling into ActiveRecord style classes and tables
+    Demonstrate ability to publish to internet using heroku
+    Demonstrate flow of web data from form -> controller -> model
+    Demonstrate ability to have common (has_many / belongs_to) relationships
+
+Lab - Reddit Clone
+
+---------------
+
+## Week 6
+
+### Objectives
+
+    Demonstrate understanding of gems and their place in Rails development
+    Demonstrate understanding of Personalization
+    Demonstrate understanding of Authentication
+    Demonstrate understanding of Pagination
+
+Lab - Twitter Clone
+
+---------------
+
+## Week 7
+
+    JavaScript and React
+
+### Objectives
+
+    Demonstrate knowledge of JavaScript proficiently
+    Demonstrate knowledge of Rails Remote Form cycle
+
+Lab - Pinterest Clone
+
+---------------
+
+## Week 8
+
+### Objectives
+
+    Demonstrate knowledge of technical challenges in accepting moneys online
+    Demonstrate capability to integrate with external APIs
+    Demonstrate ability of creating full, complete projects with ability to admin data
+
+Lab - Amazon Clone
+
+---------------
+
+## Week 9
+
+### Objectives
+
+    Demonstrate expertise in data from forms to params (and APIs sending params)
+    Demonstrate knowledge of CORS and impact on JS APIs
+    Demonstrate ability to work as a team, with a second team of different knowledge levels
+    Demonstrate ability of two projects, in two repos, deployed to two different servers, to work together
+
+Lab - Front-End Collaboration (build a CRUD API)
+
+    JS team builds a Single Page Application
+    Rails builds an API
+    They talk to each other.
+    It's harder than it sounds

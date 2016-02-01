@@ -1,8 +1,3 @@
----
-
-layout: page
-------------
-
 Optimal Setup
 =============
 
@@ -13,5 +8,3 @@ All you need to install for the first week:
 -	[Homebrew](/setup/homebrew.html)
 -	[rbenv](/setup/rbenv.html)
 -	Install Google Chrome ([download](https://www.google.com/intl/en/chrome/browser/)\)
-
-Last semester we tried to install everything upfront. This one, we'll attempt to do it on as on-needed basis.
